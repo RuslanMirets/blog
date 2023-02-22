@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Описание" />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="img/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="img/favicon/manifest.json" />
+
+    <link
+		rel="preload"
+		href="./fonts/Manrope-Bold.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+    <link
+		rel="preload"
+		href="./fonts/BebasNeueBold.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+
+    <link rel="stylesheet" href="css/app.min.css?_v=20230221152829" />
+
+    <script defer src="js/app.min.js?_v=20230221152829"></script>
+    <title>Блог</title>
+</head>
+
+    <body>
+        <section class="top">
+    <div class="top__container container">
+        <a class="top__link active" href="https://smirnov.school/blog/">блог</a>
+        <a class="top__link" href="https://smirnov.school/news/">
+            акции и новости
+        </a>
+        <a class="top__link" href="#">тесты</a>
+        <form class="top__search">
+            <input
+				class="top__search-input"
+				id="searchInput"
+				type="text"
+				placeholder="поиск по блогу"
+			/>
+            <button class="top__search-submit btn-reset" type="submit">
+                <img src="img/icons/search.svg" alt="Поиск" />
+            </button>
+        </form>
+    </div>
+</section>
+
+        <section class="best-articles" itemscope itemtype="http://schema.org/Blog">
+    <h2 class="best-articles__title heading" itemprop="description">
+        <span class="heading--highlight">лучшие </span>Статьи
+    </h2>
+    <div class="best-articles__swiper swiper-articles swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						width="386.66"
+						height="453"
+						src="img/article-01.webp"
+						alt="Как рисовать пиксель-арт: программы, пайплайн, советы"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать пиксель-арт: программы, пайплайн, советы
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						width="386.66"
+						height="453"
+						src="img/article-02.webp"
+						alt="Как рисовать изометрию: правила, советы, ошибки"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать изометрию: правила, советы, ошибки
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						width="386.66"
+						height="453"
+						src="img/article-03.webp"
+						alt="Как рисовать стекло: 10+ советов и приемов"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать стекло: 10+ советов и приемов
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						width="386.66"
+						height="453"
+						src="img/article-01.webp"
+						alt="Как рисовать пиксель-арт: программы, пайплайн, советы"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать пиксель-арт: программы, пайплайн, советы
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						width="386.66"
+						height="453"
+						src="img/article-02.webp"
+						alt="Как рисовать изометрию: правила, советы, ошибки"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать изометрию: правила, советы, ошибки
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <article
+					class="best-articles__item"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="best-articles__item-img"
+						src="img/article-03.webp"
+						alt="Как рисовать стекло: 10+ советов и приемов"
+						itemprop="image"
+					/>
+                    <div class="best-articles__item-body">
+                        <div class="best-articles__item-content">
+                            <h3 class="best-articles__item-title" itemprop="headline">
+                                Как рисовать стекло: 10+ советов и приемов
+                            </h3>
+                            <div class="best-articles__item-statistics">
+                                <div class="best-articles__item-views">34 015 просмотров</div>
+                                <div class="best-articles__item-comments">76</div>
+                            </div>
+                        </div>
+                        <a
+							class="best-articles__item-link btn-outline"
+							href="#"
+							itemprop="url"
+						>
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="best-articles__arrows">
+        <div class="best-articles__arrow best-articles__arrow--prev">
+            <img src="img/icons/arrow-left.svg" alt="Назад" />
+        </div>
+        <div class="best-articles__arrow best-articles__arrow--next">
+            <img src="img/icons/arrow-right.svg" alt="Вперед" />
+        </div>
+    </div>
+</section>
+
+        <section class="categories">
+    <div class="container">
+        <h2 class="categories__title heading">Категории</h2>
+        <ul class="categories__list list-categories">
+            <li class="list-categories__item">
+                <a class="list-categories__link" href="#">
+                    <div class="list-categories__rect">
+                        <img
+							class="list-categories__img"
+							src="img/category-01.webp"
+							alt="Игровая графика и софт"
+						/>
+                    </div>
+                    <h3 class="list-categories__title">Игровая графика и софт</h3>
+                </a>
+            </li>
+            <li class="list-categories__item">
+                <a class="list-categories__link" href="#">
+                    <div class="list-categories__rect">
+                        <img
+							class="list-categories__img"
+							src="img/category-02.webp"
+							alt="Персонажи и существа"
+						/>
+                    </div>
+                    <h3 class="list-categories__title">Персонажи и существа</h3>
+                </a>
+            </li>
+            <li class="list-categories__item">
+                <a class="list-categories__link" href="#">
+                    <div class="list-categories__rect">
+                        <img
+							class="list-categories__img"
+							src="img/category-03.webp"
+							alt="Окружение и иллюстрация"
+						/>
+                    </div>
+                    <h3 class="list-categories__title">Окружение и иллюстрация</h3>
+                </a>
+            </li>
+            <li class="list-categories__item">
+                <a class="list-categories__link" href="#">
+                    <div class="list-categories__rect">
+                        <img
+							class="list-categories__img"
+							src="img/category-04.webp"
+							alt="3D и Unreal Engine"
+						/>
+                    </div>
+                    <h3 class="list-categories__title">3D и Unreal Engine</h3>
+                </a>
+            </li>
+            <li class="list-categories__item">
+                <a class="list-categories__link" href="#">
+                    <div class="list-categories__rect">
+                        <img
+							class="list-categories__img"
+							src="img/category-05.webp"
+							alt="Карьера и здоровье"
+						/>
+                    </div>
+                    <h3 class="list-categories__title">Карьера и здоровье</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+        <section class="new-articles" itemscope itemtype="http://schema.org/Blog">
+    <div class="container">
+        <h2 class="new-articles__title heading" itemprop="description">
+            <span class="heading--highlight">новые </span>статьи
+        </h2>
+        <ul class="new-articles__list list-articles">
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-04.webp"
+						alt="В РФ появилась организация развития видеоигровой индустрии."
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            В РФ появилась организация развития видеоигровой индустрии.
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-05.webp"
+						alt="Чем занимается левел-артист в геймдеве и как им стать"
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            Чем занимается левел-артист в геймдеве и как им стать
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-06.webp"
+						alt="Как рисовать несколько схожих предметов и не тратить время"
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            Как рисовать несколько схожих предметов и не тратить время
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-07.webp"
+						alt="Советы по рисованию материалов: золота, дерева, мягкой игрушки"
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            Советы по рисованию материалов: золота, дерева, мягкой игрушки…
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-08.webp"
+						alt="Как создавалась «Принцесса Мононоке» -и почему обернулась депрессией"
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            Как создавалась «Принцесса Мононоке» -и почему обернулась
+                            депрессией
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+            <li class="list-articles__item">
+                <article
+					class="list-articles__post"
+					itemprop="blogPosts"
+					itemscope
+					itemtype="http://schema.org/BlogPosting"
+				>
+                    <img
+						class="list-articles__img"
+						src="img/article-04.webp"
+						alt="В РФ появилась организация развития видеоигровой индустрии."
+						itemprop="image"
+					/>
+                    <div class="list-articles__body">
+                        <h3 class="list-articles__title" itemprop="headline">
+                            В РФ появилась организация развития видеоигровой индустрии.
+                        </h3>
+                        <a class="list-articles__link btn-outline" href="#" itemprop="url">
+                            Читать
+                        </a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <button class="new-articles__btn btn-reset btn-fill">Больше статей</button>
+    </div>
+</section>
+
+        <section class="new-videos">
+    <div class="container">
+        <h2 class="new-videos__title heading">
+            <span class="heading--highlight">Новые </span>видео
+        </h2>
+        <ul class="new-videos__list list-videos">
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=UMgwjlHS_yE"
+				>
+                    <img class="list-videos__img" src="img/video-01.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=NWco9Ol5DrU"
+				>
+                    <img class="list-videos__img" src="img/video-02.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+            <li class="list-videos__item">
+                <a
+					class="list-videos__link video-popup"
+					href="https://www.youtube.com/watch?v=AE-0dKHbeQs"
+				>
+                    <img class="list-videos__img" src="img/video-03.webp" alt="Видео" />
+                    <img
+						class="list-videos__play"
+						src="img/icons/play.svg"
+						alt="Воспроизвести"
+					/>
+                </a>
+            </li>
+        </ul>
+        <button class="new-videos__btn btn-reset btn-fill">Больше видео</button>
+    </div>
+</section>
+
+    </body>
+</html>
